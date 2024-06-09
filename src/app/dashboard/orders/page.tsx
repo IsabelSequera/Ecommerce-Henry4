@@ -36,7 +36,7 @@ const PageOrders = () => {
                 ordersData?.length > 0? (
                     ordersData?.map((order) => {
                         return (
-                            <div className="bg-white p-8 rounded shadow-lg mb-4"> 
+                            <div key={order.id} className="bg-white p-8 rounded shadow-lg mb-4"> 
                                 <div>
                                     <p className="text-gray-700 mb-2">{new Date(order.date).toLocaleDateString()}</p>
                                     <p className="text-gray-700 mb-2">status: {order.status}</p>
@@ -47,7 +47,7 @@ const PageOrders = () => {
                 ) : (
                     <div className="bg-white p-8 rounded shadow-lg">
                         
-                        <p className="text-gray-700 mb-2">You don't have anything added yet!</p>
+                        <p className="text-gray-700 mb-2">You dont have anything added yet!</p>
                         <Link href="/">
                             <label>Buys!</label>
                         </Link>
