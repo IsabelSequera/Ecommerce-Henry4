@@ -28,15 +28,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Requisitos para instalarla
 
-First, run the development server:
+Ejecuta el administrador de paquetes npm para instalar
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
