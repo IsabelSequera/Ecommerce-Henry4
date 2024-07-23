@@ -36,11 +36,16 @@ npm install
 
 Instalar PostgreSQl 
 
-Cree un base de datos llamada henry4
+Crear un base de datos llamada henry4
 
-Cree un archivo en la raiz del proyecto llamado .env y coloque sus credeciales.
+Crear un archivo en la raiz del proyecto llamado .env y coloque sus credeciales.
 
 
 ```bash
 npm install
 ```
+```bash
+API_URL=https://infinite-partially-tomcat.ngrok-free.app
+NEXT_PUBLIC_API_URL=https://infinite-partially-tomcat.ngrok-free.app
+```
+
